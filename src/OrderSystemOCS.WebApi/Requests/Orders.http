@@ -1,0 +1,12 @@
+﻿POST http://localhost:5162/orders
+Content-Type: application/json
+{
+    "Lines": [{
+        "Id": "bfd1bf98-0878-46dc-bde0-6f2409286c54",
+        "Qty": 5,
+    },
+    {
+        "Id": "f746a1b6-6fff-4825-8347-8d857e1b17aa",
+        "Qty": 1,
+    }]    
+}
